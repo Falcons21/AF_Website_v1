@@ -643,7 +643,7 @@ header .navbar {
   padding: 48px 62px;
   position: absolute;
   bottom: -150px;
-  left: 0;
+  left: 0px;
   opacity: 0;
   width: 100%;
   height: 100%;
