@@ -235,7 +235,7 @@ header .navbar {
 #banner {
   background: url('../img/airavat_1.jpg');
   background-size: cover;
-  padding: 250px;
+  padding: 250px 60px 250px;;
   position: relative;
   width: 100%;
 }
@@ -319,13 +319,14 @@ header .navbar {
 }
 
 /* Mobile View */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 #banner {
   background: url('../img/airavat_1_mobile.jpg');
   background-size: cover;
   padding: 250px;
   position: relative;
   width: 100%;
+  overflow:hidden;
 }
 #banner:before {
   position: absolute;
@@ -340,7 +341,6 @@ header .navbar {
   position: relative;
   z-index: 999;
   color: #fff;
-  text-align: left;
 }
 #banner .block h1 {
   padding-bottom: 25px;
@@ -348,6 +348,7 @@ header .navbar {
   font-weight: 300;
   color: #1e61ae;
   top: 50%;
+  text-align: center;
 }
 #banner .block h2 {
   visibility: hidden;
@@ -403,7 +404,7 @@ header .navbar {
   -o-animation: wiggle 0.5s linear 0s infinite alternate;
   animation: wiggle 0.5s linear 0s infinite alternate;
 }
-}
+} */
 
 #features {
   padding: 100px 0 0;
