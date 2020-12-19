@@ -230,15 +230,6 @@ header .navbar {
    Home page style
    ================= */
 
-/* Desktop View */
-/* @media only screen and (min-width: 600px) { */
-#banner {
-  background: url('../img/airavat_1.jpg');
-  background-size: cover;
-  padding: 250px 60px 250px;;
-  position: relative;
-  width: 100%;
-}
 #banner:before {
   position: absolute;
   z-index: 99;
@@ -248,12 +239,45 @@ header .navbar {
   bottom: 0;
   content: '';
 }
+
+/* Desktop View */
+@media only screen and (min-width: 600px) { 
+#banner {
+  background: url('../img/airavat_1.jpg');
+  background-size: cover;
+  padding: 250px 60px 250px;;
+  position: relative;
+  width: 100%;
+} 
+ 
 #banner .block {
   position: relative;
   z-index: 999;
   color: #fff;
   text-align: right;
 }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) { 
+#banner {
+  background: url('../img/airavat_1.jpg');
+  background-size: cover;
+  padding: 250px 60px 250px;;
+  position: relative;
+  background-size: 160vw 110vh;
+  background-repeat: no-repeat;
+}
+ 
+#banner .block {
+  position: relative;
+  z-index: 999;
+  color: #fff;
+  text-align: center;
+  margin-top: 20vh;
+}
+}
+
 #banner .block h1 {
   padding-bottom: 25px;
   font-size: 55px;
@@ -316,94 +340,6 @@ header .navbar {
   -o-animation: wiggle 0.5s linear 0s infinite alternate;
   animation: wiggle 0.5s linear 0s infinite alternate;
 }
-
-/* Mobile View */
-/* @media only screen and (max-width: 600px) {
-#banner {
-  background: url('../img/airavat_1_mobile.jpg');
-  background-size: cover;
-  padding: 250px;
-  position: relative;
-  width: 100%;
-  overflow:hidden;
-}
-#banner:before {
-  position: absolute;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-}
-#banner .block {
-  position: relative;
-  z-index: 999;
-  color: #fff;
-}
-#banner .block h1 {
-  padding-bottom: 25px;
-  font-size: 50px;
-  font-weight: 300;
-  color: #1e61ae;
-  top: 50%;
-  text-align: center;
-}
-#banner .block h2 {
-  visibility: hidden;
-}
-#banner .block .btn-learn {
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 25px;
-  margin: 0 7px;
-  padding: 10px 22px;
-  font-size: 14px;
-  transition: 0.3s;
-}
-#banner .block .btn-learn:hover {
-  border-color: #1e61ae;
-  color: #1e61ae;
-}
-#banner .block .buttons {
-  margin-top: 40px;
-}
-#banner .block .buttons a {
-  margin-left: 0;
-}
-#banner .scrolldown {
-  position: absolute;
-  left: 50%;
-  bottom: 18%;
-}
-#banner .scrolldown .scroll {
-  border-radius: 100px;
-  width: 25px;
-  height: 45px;
-  position: absolute;
-  left: 50%;
-  margin: 0 0 0 -15px;
-  display: inline-block;
-  border: 1px solid #fff;
-  z-index: 99;
-}
-#banner .scrolldown .scroll:after {
-  background: #fff;
-  border-radius: 300px;
-  width: 4px;
-  height: 9px;
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  margin: 0 0 0 -2px;
-  display: block;
-  content: " ";
-  -webkit-animation: wiggle 0.5s linear 0s infinite alternate;
-  -moz-animation: wiggle 0.5s linear 0s infinite alternate;
-  -o-animation: wiggle 0.5s linear 0s infinite alternate;
-  animation: wiggle 0.5s linear 0s infinite alternate;
-}
-} */
 
 #features {
   padding: 100px 0 0;
