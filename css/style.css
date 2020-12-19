@@ -231,7 +231,7 @@ header .navbar {
    ================= */
 
 /* Desktop View */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) { */
 #banner {
   background: url('../img/airavat_1.jpg');
   background-size: cover;
@@ -315,7 +315,6 @@ header .navbar {
   -moz-animation: wiggle 0.5s linear 0s infinite alternate;
   -o-animation: wiggle 0.5s linear 0s infinite alternate;
   animation: wiggle 0.5s linear 0s infinite alternate;
-}
 }
 
 /* Mobile View */
