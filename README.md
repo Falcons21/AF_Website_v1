@@ -1,3 +1,5 @@
 # Assailing Falcons VIT VELLORE
 
-http://assailingfalcons.com/
+http://assailingfalcons.in/
+
+![Website Screenshot](img/assailingfalcons.in-screenshot.png)
